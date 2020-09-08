@@ -8,3 +8,8 @@ Scripts MNA
 ## Metodo de las potencias
 
 [AUTOVECTOR AUTOVALOR] = potencia(MATRIZ,X0,ITERACIONES)
+
+## Potencias escalado
+
+[AUTOVECTOR AUTOVALOR] = potencias_escalado(MATRIZ,X0,ITERACIONES)
+
