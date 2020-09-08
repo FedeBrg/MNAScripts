@@ -20,6 +20,14 @@ f = @(x) sin(x) * cosh(pi*x);
 
 quad(f,-42,42)
 
+## Cambio de base
+
+C = cambio_base(B1,B2)
+
+Donde   B1 es la matriz de cambio de base de B1 a las Canonicas
+        B2 es la matriz de cambio de base de B2 a las Canonicas   (Estas son las faciles de hacer
+        C es la matriz de cambio de base de B1 a B2
+
 ## Descomposición QR
 [Q R] = qr(MATRIZ)
 
