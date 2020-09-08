@@ -24,8 +24,12 @@ quad(f,-42,42)
 
 C = cambio_base(B1,B2)
 
-Donde   B1 es la matriz de cambio de base de B1 a las Canonicas
+Donde   
+
+        B1 es la matriz de cambio de base de B1 a las Canonicas
+        
         B2 es la matriz de cambio de base de B2 a las Canonicas   (Estas son las faciles de hacer
+        
         C es la matriz de cambio de base de B1 a B2
 
 ## Descomposición QR
