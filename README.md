@@ -36,4 +36,5 @@ cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 
 ## SVD
 (si hacemos U*S*V' nos devuelve A. Los valores singulares son los de S)
+
 [U S V] = svd(MATRIZ)
