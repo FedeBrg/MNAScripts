@@ -5,7 +5,10 @@ Scripts MNA
 [AUTOVECTORES AUTOVALORES LAMBDA_INFINITO] = autovec_autoval(MATRIZ,X0)
 
 
-## Metodo de las potencias
+# Metodos de las potencias
+Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontrar el menor usa inv(MATRIZ)
+
+## Potencias basico
 
 [AUTOVECTOR AUTOVALOR] = potencia(MATRIZ,X0,ITERACIONES)
 
@@ -13,3 +16,7 @@ Scripts MNA
 
 [AUTOVECTOR AUTOVALOR] = potencias_escalado(MATRIZ,X0,ITERACIONES)
 
+
+## Potencias error
+
+[AUTOVECTOR AUTOVALOR] = potencias_error(MATRIZ,X0,ITERACIONES,ERROR)
