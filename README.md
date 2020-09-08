@@ -1,6 +1,11 @@
 # MNA Scripts 1° Parcial
 Scripts MNA
 
+## Norma de funciones
+(hay que hacer el producto de las funciones. Si piden ortogonales --> norma = 0. Dejo un ejemplo acá abajo)
+f = @(x) sin(x) * cosh(pi*x);
+quad(f,-42,42)
+
 ## Descomposición QR
 [Q R] = qr(MATRIZ)
 
