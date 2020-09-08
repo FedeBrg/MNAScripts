@@ -38,3 +38,8 @@ cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 (si hacemos U*S*V' nos devuelve A. Los valores singulares son los de S)
 
 [U S V] = svd(MATRIZ)
+
+## Pseudoinversa
+(la imprime, no devuelve nada)
+
+pinv(A)
