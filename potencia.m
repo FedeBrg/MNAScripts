@@ -1,4 +1,4 @@
-function [x,l,n]=potencia(a,v)
+function [x,l]=potencia(a,v,n)
 % Metodo de las potencias aplicado a una matriz a, a partir de un vector v
 % Devuelve un autovector x y el autovalor l de modulo maximo
   numiter=n;
