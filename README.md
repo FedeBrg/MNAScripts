@@ -1,6 +1,18 @@
 # MNA Scripts 1° Parcial
 Scripts MNA
 
+## Matriz ortogonal
+inv(A) = A'
+
+A' * A = I
+
+## Norma L1 en (a,b)
+Si te dan f = sen(x)
+
+haces f = @(x) abs(sin(x)) , sin el modulo la cagas
+
+quad(abs(f),a,b)
+
 ## Norma de funciones
 (hay que hacer el producto de las funciones. Si piden ortogonales --> norma = 0. Dejo un ejemplo acá abajo)
 
@@ -47,6 +59,5 @@ cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 [U S V] = svd(MATRIZ)
 
 ## Pseudoinversa
-(la imprime, no devuelve nada)
 
-pinv(A)
+PSEUDOINVERSA = pinv(A)
