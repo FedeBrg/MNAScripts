@@ -28,6 +28,6 @@ Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontr
 [AUTOVECTOR AUTOVALOR] = potencias_error(MATRIZ,X0,ITERACIONES,ERROR)
 
 ## Cuadrados mínimos
-(no devuelve nada, solo imprime los coeficientes del polinomio)
+(no devuelve nada, solo imprime el polinomio)
 
 cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
