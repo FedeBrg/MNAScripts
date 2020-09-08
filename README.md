@@ -1,4 +1,4 @@
-# MNA
+# MNA Scripts 1° Parcial
 Scripts MNA
 
 ## Descomposición QR
@@ -7,7 +7,9 @@ Scripts MNA
 ## Autovalores con QR
 AUTOVALORES = eigQR(MATRIZ,ITERACIONES,ERROR)
 
-## Autovalores, autovectores y lambda infinito (si no queres lamda infinito podes pasarle cualquier X0 y no darle bola a LAMBDA_INFINITO)
+## Autovalores, autovectores y lambda infinito
+(si no queres lamda infinito podes pasarle cualquier X0 y no darle bola a LAMBDA_INFINITO)
+
 [AUTOVECTORES AUTOVALORES LAMBDA_INFINITO] = autovec_autoval(MATRIZ,X0)
 
 # Metodos de las potencias
@@ -21,7 +23,11 @@ Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontr
 
 [AUTOVECTOR AUTOVALOR] = potencias_escalado(MATRIZ,X0,ITERACIONES)
 
-
 ## Potencias error
 
 [AUTOVECTOR AUTOVALOR] = potencias_error(MATRIZ,X0,ITERACIONES,ERROR)
+
+## Cuadrados mínimos
+(no devuelve nada, solo imprime los coeficientes del polinomio)
+
+cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
