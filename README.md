@@ -9,6 +9,7 @@ AUTOVALORES = eigQR(MATRIZ,ITERACIONES,ERROR)
 
 ## Autovalores, autovectores y lambda infinito
 (si no queres lamda infinito podes pasarle cualquier X0 y no darle bola a LAMBDA_INFINITO)
+
 [AUTOVECTORES AUTOVALORES LAMBDA_INFINITO] = autovec_autoval(MATRIZ,X0)
 
 # Metodos de las potencias
