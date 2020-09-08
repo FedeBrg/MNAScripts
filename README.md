@@ -31,3 +31,9 @@ Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontr
 (no devuelve nada, solo imprime el polinomio)
 
 cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
+
+# Descomposición en valores singulares
+
+## SVD
+(si hacemos U*S*V' nos devuelve A. Los valores singulares son los de S)
+[U S V] = svd(MATRIZ)
