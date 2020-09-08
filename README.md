@@ -11,7 +11,7 @@ Si te dan f = sen(x)
 
 haces f = @(x) abs(sin(x)) , sin el modulo la cagas
 
-quad(abs(f),a,b)
+quad(f,a,b)
 
 ## Norma de funciones
 (hay que hacer el producto de las funciones. Si piden ortogonales --> norma = 0. Dejo un ejemplo acá abajo)
