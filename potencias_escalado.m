@@ -9,5 +9,5 @@ function [y,l]=potencias_escalado(a,v,n)
     x=a*y;
     y=x/norm(x);
   end
-  l=x.’*y;
+  l=x'*y;
 return

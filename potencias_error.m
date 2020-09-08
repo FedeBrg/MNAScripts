@@ -14,7 +14,7 @@ function [y,l]=potencias_error(a,v,n,error)
   for k=1:numiter
     x=a*y;
     y=x/norm(x);
-    lc=x.’*y;
+    lc=x'*y;
     if abs(l-lc)<eps
       return
   end
