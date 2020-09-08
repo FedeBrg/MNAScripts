@@ -13,3 +13,7 @@ Scripts MNA
 
 [AUTOVECTOR AUTOVALOR] = potencias_escalado(MATRIZ,X0,ITERACIONES)
 
+
+## Potencias error
+
+[AUTOVECTOR AUTOVALOR] = potencias_error(MATRIZ,X0,ITERACIONES,ERROR)
