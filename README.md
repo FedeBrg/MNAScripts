@@ -1,9 +1,11 @@
 # MNA
 Scripts MNA
 
+## Descomposición QR
+[Q R] = qr(MATRIZ)
+
 ## Autovalores, autovectores y lambda infinito (si no queres lamda infinito podes pasarle cualquier X0 y no darle bola a LAMBDA_INFINITO)
 [AUTOVECTORES AUTOVALORES LAMBDA_INFINITO] = autovec_autoval(MATRIZ,X0)
-
 
 # Metodos de las potencias
 Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontrar el menor usa inv(MATRIZ)
