@@ -2,6 +2,6 @@
 Scripts MNA
 
 
-METODO DE LAS POTENCIAS:
+## Metodo de las potencias
 
 [AUTOVECTOR AUTOVALOR] = potencia(MATRIZ,X0,ITERACIONES)
