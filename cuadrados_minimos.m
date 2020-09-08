@@ -1,7 +1,10 @@
 function cuadrados_minimos(x,y,grado)
   a = polyfit(x,y,grado);
   for i = 0:grado
-    fprintf('a%d = %f, ', i, a(grado+1-i));
+    fprintf('%f * X^%d', a(grado+1-i), i);
+    if(i != grado)
+       fprintf(' + ');
+    endif
   endfor
   
   fprintf('\n');
