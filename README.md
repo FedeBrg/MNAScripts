@@ -68,7 +68,9 @@ cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 
 (la matriz C que es parámetro es la matriz que dan de resultados, por ejemplo [2.1 3.9 8.8])
 
-MATRIZ = cuadrados_minimos_SVD(MATRIZ, C)
+(la MATRIZ_ENTRADA es el resultado de reemplazar la fórmula que nos dan por ejemplo "y = ax+b" con los valores de x que nos pasan)
+
+MATRIZ_RESULTADO = cuadrados_minimos_SVD(MATRIZ_ENTRADA, C)
 
 # Descomposición en valores singulares
 
