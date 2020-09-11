@@ -7,7 +7,7 @@ function v = eigQR(A,n,error)
  
   for k=1:numiter
     [Q R] = qr(Ak);
-    Ak1 = R*Q;
+    Ak1 = Q*R;
     v = diag(Ak1);
 
     if abs(diag(Ak)-diag(Ak1))<eps
