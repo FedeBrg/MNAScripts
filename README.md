@@ -63,6 +63,15 @@ Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontr
 
 cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 
+## Cuadrados mínimos con SVD
+(devuelve una matriz de Nx1 que tiene la forma [a ; b ; .. ; n] y esos valores corresponden a las letras de la formula "y = a*cos(x) + b" o la que sea)
+
+(la matriz C que es parámetro es la matriz que dan de resultados, por ejemplo [2.1 3.9 8.8])
+
+(la MATRIZ_ENTRADA es el resultado de reemplazar la fórmula que nos dan por ejemplo "y = ax+b" con los valores de x que nos pasan)
+
+MATRIZ_RESULTADO = cuadrados_minimos_SVD(MATRIZ_ENTRADA, C)
+
 # Descomposición en valores singulares
 
 ## SVD
