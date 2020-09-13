@@ -70,7 +70,12 @@ cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 
 (la MATRIZ_ENTRADA es el resultado de reemplazar la fórmula que nos dan por ejemplo "y = ax+b" con los valores de x que nos pasan)
 
-MATRIZ_RESULTADO = cuadrados_minimos_SVD(MATRIZ_ENTRADA, C)
+MATRIZ_RESULTADO = cuadrados_minimos_svd(MATRIZ_ENTRADA, C)
+
+## Cuadrados minimos con QR
+(devuelve y recibe lo mismo que cuadrados minimos con SVD)
+
+MATRIZ_RESULTADO = cuadrados_minimos_qr(MATRIZ_ENTRADA, C)
 
 # Descomposición en valores singulares
 
