@@ -63,6 +63,10 @@ Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontr
 
 cuadrados_minimos([XVECTOR],[YVECTOR],GRADO)
 
+## Cuadrados mínimos directo 
+Es CMDirecto, le erre.
+![alt text](https://i.ibb.co/X4G1wjY/Whats-App-Image-2020-09-13-at-4-52-24-PM.jpg)
+
 ## Cuadrados mínimos con SVD
 (devuelve una matriz de Nx1 que tiene la forma [a ; b ; .. ; n] y esos valores corresponden a las letras de la formula "y = a*cos(x) + b" o la que sea)
 
