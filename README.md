@@ -31,6 +31,10 @@ Donde
         B2 es la matriz de cambio de base de B2 a las Canonicas   (Estas son las faciles de hacer
         
         C es la matriz de cambio de base de B1 a B2
+        
+Si queremos cambiar un vector a otra base hacemos:
+        
+        V(b2) = C(b1->b2) * V(b1)
 
 ## Descomposición QR
 [Q R] = qr(MATRIZ)
