@@ -95,3 +95,11 @@ MATRIZ_RESULTADO = cuadrados_minimos_qr(MATRIZ_ENTRADA, C)
 ## Pseudoinversa
 
 PSEUDOINVERSA = pinv(A)
+
+## Numero de condición
+No tengo ni idea para que sirve, pero es:
+cond(MATRIZ)
+
+## Norma P
+P puede ser el valor que se necesite, para hacer la norma 2 le metes un 2
+norm(MATRIZ,p)
