@@ -6,6 +6,11 @@ inv(A) = A'
 
 A' * A = I
 
+## Rango de una matriz
+(No esta del todo chequeado)
+
+rank(A)
+
 ## Norma L1 en (a,b)
 Si te dan f = sen(x)
 
