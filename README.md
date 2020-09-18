@@ -50,7 +50,7 @@ AUTOVALORES = eigQR(MATRIZ,ITERACIONES,ERROR)
 # Metodos de las potencias
 Encontrar autovalor de modulo maximo y su autovector asociado. Si queres encontrar el menor usa inv(MATRIZ)
 
-## Potencias basico
+## Potencias basico (Usar este para imaginarios, con los otros se pierde en el norm)
 
 [AUTOVECTOR AUTOVALOR] = potencia(MATRIZ,X0,ITERACIONES)
 
