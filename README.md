@@ -12,7 +12,7 @@ Primero definis la funcion:
  
  Y = f(X);
  
- Necesistas que sea lo mas chico posible el intervalo, pero a veces igual no anda
+ Necesistas que sea lo mas chico posible el paso, pero a veces igual no anda
  
  Finalmente:
  
