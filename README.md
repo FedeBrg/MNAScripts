@@ -1,3 +1,25 @@
+# MNA Scripts 2° Parcial
+## Periodo y Frecuencia
+
+Primero definis la funcion:
+
+ f = @(y) (2*(cos(10*pi()*y + (pi()/6))) + (5*sin(17*pi()*y+(pi()/4))))
+ 
+ 
+ Despues la evaluas:
+ 
+ X = (0.1:0.00001:5)
+ 
+ Y = f(X);
+ 
+ Necesistas que sea lo mas chico posible el intervalo, pero a veces igual no anda
+ 
+ Finalmente:
+ 
+ [p f] = per_frec(Y,X)
+ 
+ 
+
 # MNA Scripts 1° Parcial
 Scripts MNA
 
